@@ -2,7 +2,7 @@ Summary:	Volume management daemon for XFCE
 Summary(pl.UTF-8):	Demon poziomu dźwięku XFCE
 Name:		xfce4-volumed
 Version:	0.1.13
-Release:	0.1
+Release:	1
 License:	GPL v3
 Group:		Applications/System
 Source0:	http://www.xfce.org/archive/src/apps/xfce4-volumed/0.1/%{name}-%{version}.tar.bz2
@@ -20,13 +20,17 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 This daemon is responsible of making the volume up/down and mute
-keys of the keyboard work automatically, and uses the XFCE 4 mixer's
+keys of the keyboard work automatically, and uses the XFCE mixer's
 defined card and track for chosing which track to act on.
 It also provides volume change / mute toggle notifications if
 the notification server used supports x-canonical-icon-only and
 x-canonical-synchronous notifications.
 
-#%description -l pl.UTF-8
+%description -l pl.UTF-8
+Ten demon zapewnia automatyczne działanie klawiszy głośności na
+klawiaturze przy użyciu miksera XFCE. Udostępnia również powiadomienia
+jeśli serwer powiadomień obsługuje powiadomienia x-canonical-icon-only
+i x-canonical-synchronous.
 
 %prep
 %setup -q
