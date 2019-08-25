@@ -5,7 +5,7 @@ Version:	0.1.13
 Release:	7
 License:	GPL v3
 Group:		Applications/System
-Source0:	http://www.xfce.org/archive/src/apps/xfce4-volumed/0.1/%{name}-%{version}.tar.bz2
+Source0:	http://archive.xfce.org/src/apps/xfce4-volumed/0.1/%{name}-%{version}.tar.bz2
 # Source0-md5:	03c0ee58aa0a080d35313ac517a975ea
 URL:		https://launchpad.net/xfce4-volumed
 BuildRequires:	glib2-devel >= 1:2.10.6
